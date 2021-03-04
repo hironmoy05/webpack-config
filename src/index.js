@@ -4,4 +4,12 @@ const users = {
   job: "Web developer"
 }
 
+const newUser = {
+  ...users, 
+  name: "Gaurav",
+  age: 31,
+  job: "Full Stack Developer"
+}
+
 console.log(users);
+console.log(newUser);
