@@ -1,17 +1,6 @@
-import "./styles/index.scss";
+import { render } from "react-dom";
+import App from "./components/App";
 
-const users = {
-  name: "Hironmoy Dhar",
-  age: 32,
-  job: "Web developer"
-}
 
-const newUser = {
-  ...users, 
-  name: "Gaurav",
-  age: 31,
-  job: "Full Stack Developer"
-}
+render(<App />, document.getElementById("root"));
 
-console.log(users);
-console.log(newUser);
