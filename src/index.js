@@ -1,3 +1,5 @@
+import "./styles/index.scss";
+
 const users = {
   name: "Hironmoy Dhar",
   age: 32,
